@@ -1,0 +1,87 @@
+body {
+  background-image: url("https://s13.postimg.org/vozo30gvb/background_906135_960_720.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+h1 img {
+  height: 1.25em;
+  width: 1.25em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  height: 6em;
+  resize: none;
+  width: 100%;
+}
+
+#main {
+  background-color: rgba(255, 230, 230, 0.6);
+  border-top: 1px solid black;
+  margin: auto;
+  padding-bottom: 5.9375em;
+  position: relative;
+  width: 50em;
+}
+#main button {
+  font-size: 1em;
+  height: 2.5em;
+  width: 7em;
+}
+#main > button {
+  font-size: 1em;
+  height: 3em;
+  position: absolute;
+  bottom: 1.5625em;
+  right: 1.5625em;
+  width: 8em;
+}
+
+.instructions {
+  background-color: white;
+  border-radius: 0.1875em;
+  line-height: 140%;
+  padding: 0.5em;
+}
+
+.recipe {
+  border-bottom: 1px solid black;
+  padding: 0.625em;
+}
+.recipe button {
+  margin-right: 0.3125em;
+}
+
+.recipeHeader {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  height: 2.5em;
+}
+.recipeHeader h2 {
+  font-size: 1.875em;
+  margin: 0.3125em;
+}
+
+@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
+  body {
+    font-size: 32px;
+  }
+
+  #main {
+    width: 100%;
+  }
+}
